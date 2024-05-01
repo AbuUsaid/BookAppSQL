@@ -1,0 +1,38 @@
+# Dependency directory
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/*
+.nyc_output
+
+# Build directories
+build/
+
+# Cache directories
+.npm
+.cache
+.eslintcache
+.stylelintcache
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Environment files
+.env*
+
+# Temporary files
+.tmp*
