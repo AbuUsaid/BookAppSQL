@@ -1,5 +1,6 @@
 import express from 'express';
 import mysql from 'mysql2';
+import cors from 'cors';
 
 /*environment variable */
 import dotenv from 'dotenv';
@@ -18,6 +19,7 @@ const db = mysql.createConnection({
 });
 
 app.use(express.json());
+app.use(cors());
 
 app.get('/', (req, res) => {
   res.json('hello this is the backend');
