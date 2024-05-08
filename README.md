@@ -46,6 +46,6 @@ npm start
 
 ## Screenshot
 
-![App Screenshot](./path/to/your/screenshot.png)
+![App Screenshot](./bookshop.png)
 
 
